@@ -1,2 +1,7 @@
-# The-leaky-competing-accumulator-LCA-
+# The-leaky-competing-accumulator-LCA
 The leaky, competing, accumulator (LCA)
+
+The time course of perceptual choice is discussed in a model of gradual, leaky, stochastic, and competitive information accumulation in nonlinear decision units. Special cases of the model match a classical diffusion process, but leakage and competition work together to address several challenges to existing diffusion, random walk, and accumulator models. The model accounts for data from choice tasks using both time-controlled (e.g., response signal) and standard reaction time paradigms and its adequacy compares favorably with other approaches. A new paradigm that controls the time of arrival of information supporting different choice alternatives provides further support. The model captures choice behavior regardless of the number of alternatives, accounting for the log-linear relation between reaction time and number of alternatives (Hick's law) and explains a complex pattern of visual and contextual priming in visual word identification.
+
+The script generates the follwoing plot, showing that more units got activated -> more competition -> reduce the activity level of the strongest unit == increase uncertainty. this is a desired property emerged from the competition across all accumulators.
+The effect of leak is straightforward: controlling for everything else, accumulators with bigger leak get less activated
